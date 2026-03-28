@@ -1,0 +1,13 @@
+import React, {useState} from 'react'
+function Calculator() {
+return (
+<div id="calculator">
+<input name="num1" type="number" defaultValue="Type Number" />
+<input name="num2" type="number" defaultValue="Type Number" />
+<p>+</p>
+<p>=</p>
+<p>0</p>
+</div>
+);
+}
+export default Calculator;
