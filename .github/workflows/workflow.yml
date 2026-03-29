@@ -25,7 +25,9 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install -g cross-env
 
       - name: Run tests
         run: npm test
